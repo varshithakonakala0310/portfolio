@@ -7,23 +7,17 @@
 <meta name="description" content="Portfolio of Varshitha Konakala — Business Analyst and MSc Business Analytics graduate from Aston University. Business analytics, predictive modelling and data-driven strategic decision-making.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23C8102E'/%3E%3Ctext x='32' y='44' font-family='Arial Black,Arial' font-size='30' font-weight='900' fill='%23FAF3E3' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%233E2F23'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='28' fill='%23F6F1E7' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
 </head>
 <body>
 
 <a class="skip-link" href="#projects">Skip to projects</a>
 
-<!-- ===================== HEADER ===================== -->
 <header class="site-header" id="top">
-  <a class="logo" href="#top" aria-label="Varshitha Konakala — home">
-    <span class="logo-badge">VK</span>
-    <span class="logo-text">Varshitha<em>.</em></span>
-  </a>
-  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
-    <span></span><span></span><span></span>
-  </button>
+  <a class="wordmark" href="#top">Varshitha <span>Konakala</span></a>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu"><span></span><span></span></button>
   <nav class="site-nav" id="siteNav" aria-label="Main navigation">
     <a href="#about">About</a>
     <a href="#education">Education</a>
@@ -31,285 +25,213 @@
     <a href="#dissertation">Dissertation</a>
     <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
-    <a class="nav-cta" href="https://github.com/varshithakonakala0310" target="_blank" rel="noopener">GitHub ↗</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
 
-<!-- ===================== TICKER ===================== -->
-<div class="ticker" aria-hidden="true">
-  <div class="ticker-track">
-    <span>Business Analytics ★ Data-Driven Decisions ★ Python ★ SQL ★ Power BI ★ Tableau ★ Predictive Modelling ★ KPI Reporting ★&nbsp;</span>
-    <span>Business Analytics ★ Data-Driven Decisions ★ Python ★ SQL ★ Power BI ★ Tableau ★ Predictive Modelling ★ KPI Reporting ★&nbsp;</span>
-  </div>
-</div>
+<main>
 
-<!-- ===================== HERO / COVER ===================== -->
+<!-- HERO -->
 <section class="hero">
-  <div class="hero-shape hero-circle" aria-hidden="true"></div>
-  <div class="hero-shape hero-star" aria-hidden="true">
-    <svg viewBox="0 0 100 100"><path d="M50 0 L58 34 L95 22 L66 44 L98 58 L64 60 L76 96 L52 68 L30 94 L34 60 L0 56 L32 42 L6 18 L42 30 Z" fill="#C8102E"/></svg>
-  </div>
-
-  <p class="hero-sticker sticker sticker-tilt-left">Portfolio ★ 2026</p>
-  <p class="hero-kicker">Presented by</p>
-  <h1 class="hero-name">
-    <span class="line-solid">Varshitha</span>
-    <span class="line-outline">Konakala</span>
-  </h1>
-  <div class="hero-role">
-    <span class="pill pill-red">Business Analyst</span>
-    <span class="pill pill-ink">MSc Business Analytics — Aston University</span>
-  </div>
+  <p class="eyebrow">Portfolio &nbsp;·&nbsp; Business Analytics &nbsp;·&nbsp; 2026</p>
+  <h1>Varshitha<br><em>Konakala</em></h1>
+  <p class="hero-role">Business Analyst &nbsp;—&nbsp; MSc Business Analytics, Aston University</p>
+  <div class="rule" aria-hidden="true"><span></span></div>
   <p class="hero-tagline">I turn complex datasets into clear, actionable insight, helping organisations make confident, data-backed strategic decisions.</p>
   <div class="hero-actions">
-    <a class="btn btn-red" href="#projects">See my projects <span aria-hidden="true">→</span></a>
-    <a class="btn btn-ghost" href="https://github.com/varshithakonakala0310" target="_blank" rel="noopener">
-      <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-      GitHub
-    </a>
+    <a class="btn btn-solid" href="#projects">View projects</a>
+    <a class="btn btn-line" href="https://github.com/varshithakonakala0310" target="_blank" rel="noopener">GitHub</a>
   </div>
-
-  <ul class="hero-stats" aria-label="Highlights">
-    <li><strong>248</strong><span>UK SMEs in my dissertation study</span></li>
-    <li><strong>6</strong><span>analytics projects on GitHub</span></li>
-    <li><strong>4</strong><span>ML models compared in my dissertation</span></li>
-  </ul>
+  <dl class="hero-stats">
+    <div><dt>248</dt><dd>UK SMEs in my dissertation study</dd></div>
+    <div><dt>6</dt><dd>Analytics projects on GitHub</dd></div>
+    <div><dt>4</dt><dd>ML models compared in my dissertation</dd></div>
+  </dl>
 </section>
 
-<!-- ===================== TABLE OF CONTENTS ===================== -->
-<nav class="toc reveal" aria-label="Contents">
-  <p class="toc-title">Contents</p>
-  <ol>
-    <li><a href="#about"><span>01</span> Introduction</a></li>
-    <li><a href="#education"><span>02</span> Education Background</a></li>
-    <li><a href="#experience"><span>03</span> Working Experience</a></li>
-    <li><a href="#projects"><span>04</span> Previous Projects</a></li>
-    <li><a href="#skills"><span>05</span> Skill &amp; Expertise</a></li>
-    <li><a href="#contact"><span>06</span> Get in Touch</a></li>
-  </ol>
-</nav>
-
-<!-- ===================== ABOUT ===================== -->
+<!-- ABOUT -->
 <section class="section reveal" id="about">
-  <p class="section-tag sticker sticker-tilt-right">01 · Introduction</p>
-  <h2 class="section-title">Hello! My name is <span class="text-red">Varshitha</span></h2>
-  <div class="two-col">
-    <div>
-      <p class="lead">I am a data-driven Business Analytics postgraduate from <strong>Aston University</strong>, with hands-on industry experience as a <strong>Project Associate at Centific</strong>.</p>
+  <header class="section-head"><span class="section-no">I.</span><h2>About</h2></header>
+  <div class="editorial">
+    <p class="lead">I am a data-driven Business Analytics postgraduate from <strong>Aston University</strong>, with hands-on industry experience as a <strong>Project Associate at Centific</strong>.</p>
+    <div class="columns">
       <p>I specialise in transforming complex datasets into actionable business insights using Python, SQL, Excel and leading business intelligence tools. My work focuses on business strategy: understanding what the data is really saying, then turning it into decisions people can act on with confidence.</p>
       <p>During my undergraduate studies I was a member of the <strong>Strategic Decision Making Club</strong>, taking part in case competitions and business strategy discussions, an interest I carried into my MSc dissertation on how UK businesses use data in strategic planning.</p>
     </div>
-    <aside class="fact-card" aria-label="At a glance">
-      <h3>At a glance</h3>
-      <ul>
-        <li><span>Degree</span><strong>MSc Business Analytics</strong></li>
-        <li><span>University</span><strong>Aston University, UK</strong></li>
-        <li><span>Experience</span><strong>Project Associate, Centific</strong></li>
-        <li><span>Focus</span><strong>Strategic decision-making</strong></li>
-        <li><span>Tools</span><strong>Python · SQL · Power BI · Tableau</strong></li>
-      </ul>
-      <a class="btn btn-red btn-small" href="#dissertation">My dissertation ↓</a>
-    </aside>
+    <ul class="glance">
+      <li><span>Degree</span>MSc Business Analytics</li>
+      <li><span>University</span>Aston University, UK</li>
+      <li><span>Experience</span>Project Associate, Centific</li>
+      <li><span>Focus</span>Strategic decision-making</li>
+      <li><span>Tools</span>Python · SQL · Power BI · Tableau</li>
+    </ul>
   </div>
 </section>
 
-<!-- ===================== EDUCATION ===================== -->
+<!-- EDUCATION -->
 <section class="section reveal" id="education">
-  <p class="section-tag sticker sticker-tilt-left">02 · Education Background</p>
-  <h2 class="section-title">Education</h2>
-  <div class="card-grid card-grid-2">
-    <article class="info-card">
-      <p class="card-badge">2025 – 2026</p>
-      <h3>MSc Business Analytics</h3>
-      <p class="card-org">Aston University · United Kingdom</p>
-      <p>Postgraduate study in business analytics and decision-making, completed with a dissertation on how UK SMEs use data and predictive modelling in strategic planning, based on financial data for 248 UK SMEs.</p>
+  <header class="section-head"><span class="section-no">II.</span><h2>Education</h2></header>
+  <div class="edu-list">
+    <article class="edu">
+      <p class="edu-date">2025 – 2026</p>
+      <div>
+        <h3>MSc Business Analytics</h3>
+        <p class="org">Aston University · United Kingdom</p>
+        <p>Postgraduate study in business analytics and decision-making, completed with a dissertation on how UK SMEs use data and predictive modelling in strategic planning, based on financial data for 248 UK SMEs.</p>
+      </div>
     </article>
-    <article class="info-card">
-      <p class="card-badge">Undergraduate</p>
-      <h3>Bachelor of Business Administration (BBA)</h3>
-      <p class="card-org">India</p>
-      <p>Graduated with a CGPA of <strong>8.37 / 10.00</strong>. Member of the Strategic Decision Making Club, with active involvement in case competitions and business strategy discussions.</p>
+    <article class="edu">
+      <p class="edu-date">Undergraduate</p>
+      <div>
+        <h3>Bachelor of Business Administration (BBA)</h3>
+        <p class="org">India</p>
+        <p>Graduated with a CGPA of <strong>8.37 / 10.00</strong>. Member of the Strategic Decision Making Club, with active involvement in case competitions and business strategy discussions.</p>
+      </div>
     </article>
   </div>
 </section>
 
-<!-- ===================== EXPERIENCE ===================== -->
+<!-- EXPERIENCE -->
 <section class="section reveal" id="experience">
-  <p class="section-tag sticker sticker-tilt-right">03 · Working Experience</p>
-  <h2 class="section-title">Working <span class="text-outline">Experience</span></h2>
-  <div class="timeline">
-    <article class="job">
-      <div class="job-head">
-        <h3>Project Associate</h3>
-        <p class="pill pill-red">Jul – Nov 2025</p>
-      </div>
-      <p class="card-org">Centific · Hyderabad, India</p>
-      <ul>
-        <li>Executed data-focused projects supporting AI and analytics workflows through structured data processing and systematic validation pipelines.</li>
-        <li>Conducted comprehensive data quality analysis across large-scale datasets, ensuring accuracy, consistency and reliability for downstream analytical use.</li>
-        <li>Collaborated with cross-functional global teams to streamline operational workflows and support efficient project delivery.</li>
-        <li>Applied analytical thinking to identify data inconsistencies and drive data optimisation initiatives, improving overall data integrity.</li>
-      </ul>
-    </article>
-    <article class="job job-minor">
-      <div class="job-head">
-        <h3>Volunteer</h3>
-        <p class="pill pill-ink">1 month</p>
-      </div>
-      <p class="card-org">Non-Governmental Organisation (NGO) · India</p>
-      <p>Supported community development initiatives and outreach programmes, coordinating resources and event logistics alongside a diverse volunteer team.</p>
-    </article>
-  </div>
+  <header class="section-head"><span class="section-no">III.</span><h2>Experience</h2></header>
+  <article class="job">
+    <div class="job-meta"><h3>Project Associate</h3><p class="org">Centific · Hyderabad, India</p><p class="date">July – November 2025</p></div>
+    <ul>
+      <li>Executed data-focused projects supporting AI and analytics workflows through structured data processing and systematic validation pipelines.</li>
+      <li>Conducted comprehensive data quality analysis across large-scale datasets, ensuring accuracy, consistency and reliability for downstream analytical use.</li>
+      <li>Collaborated with cross-functional global teams to streamline operational workflows and support efficient project delivery.</li>
+      <li>Applied analytical thinking to identify data inconsistencies and drive data optimisation initiatives, improving overall data integrity.</li>
+    </ul>
+  </article>
+  <article class="job job-minor">
+    <div class="job-meta"><h3>Volunteer</h3><p class="org">Non-Governmental Organisation (NGO) · India</p><p class="date">1 month</p></div>
+    <p>Supported community development initiatives and outreach programmes, coordinating resources and event logistics alongside a diverse volunteer team.</p>
+  </article>
 </section>
 
-<!-- ===================== DISSERTATION ===================== -->
+<!-- DISSERTATION -->
 <section class="dissertation reveal" id="dissertation">
-  <p class="section-tag sticker sticker-cream sticker-tilt-left">★ Flagship · MSc Dissertation</p>
-  <h2 class="dissertation-title">Business Analytics &amp; Decision-Making</h2>
+  <p class="eyebrow eyebrow-light">Flagship &nbsp;·&nbsp; MSc Dissertation</p>
+  <h2>Business Analytics <em>&amp; Decision-Making</em></h2>
   <p class="dissertation-sub">“A Study of How UK Businesses Use Data in Strategic Planning”</p>
-  <div class="two-col two-col-light">
-    <div>
-      <p>My dissertation asked a practical question: can business analytics genuinely improve strategic decision-making in UK small and medium-sized enterprises? Using financial records for <strong>248 UK SMEs (January 2018 – February 2023)</strong>, I built a three-stage analysis: descriptive analytics, correlation and regression, then predictive modelling.</p>
-      <p>Regression explained <strong>more than 70% of the variance</strong> in growth outcomes in the original study, and explainability analysis with <strong>SHAP</strong> showed that profitability efficiency, especially <strong>profit per employee</strong> and <strong>profit margin</strong>, drives growth outlooks.</p>
-    </div>
-    <div>
-      <h3 class="mini-title">Models compared</h3>
-      <ul class="chip-list">
-        <li>Random Forest</li>
-        <li>Gradient Boosting</li>
-        <li class="chip-winner">XGBoost — best in the original study ★</li>
-        <li>Regression</li>
-      </ul>
-      <h3 class="mini-title">Strongest predictors</h3>
-      <ul class="chip-list">
-        <li>Profit per employee</li>
-        <li>Profit margin</li>
-      </ul>
-      <a class="btn btn-cream" href="https://github.com/varshithakonakala0310/uk-sme-strategic-growth-prediction" target="_blank" rel="noopener">View the dissertation project on GitHub →</a>
-    </div>
+  <div class="columns columns-light">
+    <p>My dissertation asked a practical question: can business analytics genuinely improve strategic decision-making in UK small and medium-sized enterprises? Using financial records for <strong>248 UK SMEs (January 2018 – February 2023)</strong>, I built a three-stage analysis: descriptive analytics, correlation and regression, then predictive modelling.</p>
+    <p>Regression explained <strong>more than 70% of the variance</strong> in growth outcomes in the original study, and explainability analysis with <strong>SHAP</strong> showed that profitability efficiency, especially <strong>profit per employee</strong> and <strong>profit margin</strong>, drives growth outlooks.</p>
   </div>
+  <div class="dissertation-grid">
+    <div><h3>Models compared</h3><ul><li>Random Forest</li><li>Gradient Boosting</li><li>XGBoost — best in the original study</li><li>Regression</li></ul></div>
+    <div><h3>Strongest predictors</h3><ul><li>Profit per employee</li><li>Profit margin</li></ul></div>
+  </div>
+  <a class="btn btn-cream" href="https://github.com/varshithakonakala0310/uk-sme-strategic-growth-prediction" target="_blank" rel="noopener">View the dissertation project on GitHub</a>
 </section>
 
-<!-- ===================== PROJECTS ===================== -->
+<!-- PROJECTS -->
 <section class="section reveal" id="projects">
-  <p class="section-tag sticker sticker-tilt-right">04 · Previous Projects</p>
-  <h2 class="section-title">Projects</h2>
+  <header class="section-head"><span class="section-no">IV.</span><h2>Selected Projects</h2></header>
   <p class="section-intro">Six end-to-end business analytics projects, built in Python and SQL with reproducible code, documented methods and honest, clearly labelled synthetic datasets.</p>
 
-  <div class="project-grid">
-
-    <article class="project-card">
-      <div class="project-top"><span class="project-num">01</span><span class="tag">Dissertation · Machine Learning</span></div>
+  <article class="project">
+    <span class="project-no">01</span>
+    <div class="project-body">
+      <p class="project-tag">Dissertation · Machine Learning</p>
       <h3>UK SME Strategic Growth Prediction</h3>
       <p>My MSc dissertation recreated in code: predicting high vs low growth for UK SMEs from 14 financial indicators, comparing regression, Random Forest, Gradient Boosting and XGBoost.</p>
-      <p class="metric"><strong>XGBoost best</strong> · Accuracy 0.7419 · F1 0.7419 <span>(synthetic recreation)</span></p>
+      <p class="metric">XGBoost best · Accuracy 0.7419 · F1 0.7419 <span>(synthetic recreation)</span></p>
       <p class="tech">Python · XGBoost · scikit-learn · SHAP approach · SQL</p>
-      <a class="project-link" href="https://github.com/varshithakonakala0310/uk-sme-strategic-growth-prediction" target="_blank" rel="noopener">View on GitHub →</a>
-    </article>
+    </div>
+    <a class="project-link" href="https://github.com/varshithakonakala0310/uk-sme-strategic-growth-prediction" target="_blank" rel="noopener">View on GitHub</a>
+  </article>
 
-    <article class="project-card">
-      <div class="project-top"><span class="project-num">02</span><span class="tag">Retail · Segmentation</span></div>
+  <article class="project">
+    <span class="project-no">02</span>
+    <div class="project-body">
+      <p class="project-tag">Retail · Segmentation</p>
       <h3>Retail Sales Performance &amp; Customer Segmentation</h3>
       <p>Where does revenue come from, and which customers matter most? Revenue trends, RFM analysis and KMeans segmentation over 5,000 synthetic retail orders.</p>
-      <p class="metric"><strong>£439,515.38</strong> total revenue · AOV £87.90 · top segment avg. £1,003.59</p>
+      <p class="metric">£439,515.38 total revenue · AOV £87.90 · top segment avg. £1,003.59</p>
       <p class="tech">Python · pandas · KMeans · RFM · SQL</p>
-      <a class="project-link" href="https://github.com/varshithakonakala0310/retail-sales-performance-customer-segmentation" target="_blank" rel="noopener">View on GitHub →</a>
-    </article>
+    </div>
+    <a class="project-link" href="https://github.com/varshithakonakala0310/retail-sales-performance-customer-segmentation" target="_blank" rel="noopener">View on GitHub</a>
+  </article>
 
-    <article class="project-card">
-      <div class="project-top"><span class="project-num">03</span><span class="tag">Marketing · A/B Testing</span></div>
+  <article class="project">
+    <span class="project-no">03</span>
+    <div class="project-body">
+      <p class="project-tag">Marketing · A/B Testing</p>
       <h3>Marketing Campaign A/B Testing Analytics</h3>
       <p>Evidence, not opinion: does campaign variant B really beat control A? Conversion and ROI by channel, settled with a chi-square significance test.</p>
-      <p class="metric"><strong>B beat A</strong> · 0.0877 vs 0.0671 conversion · p = 5.81e-08 · best: Search B, 0.1308</p>
+      <p class="metric">B beat A · 0.0877 vs 0.0671 conversion · p = 5.81e-08 · best: Search B, 0.1308</p>
       <p class="tech">Python · SciPy · Chi-square testing · pandas</p>
-      <a class="project-link" href="https://github.com/varshithakonakala0310/marketing-campaign-ab-testing-analytics" target="_blank" rel="noopener">View on GitHub →</a>
-    </article>
+    </div>
+    <a class="project-link" href="https://github.com/varshithakonakala0310/marketing-campaign-ab-testing-analytics" target="_blank" rel="noopener">View on GitHub</a>
+  </article>
 
-    <article class="project-card">
-      <div class="project-top"><span class="project-num">04</span><span class="tag">Retention · Classification</span></div>
+  <article class="project">
+    <span class="project-no">04</span>
+    <div class="project-body">
+      <p class="project-tag">Retention · Classification</p>
       <h3>Customer Churn Prediction &amp; Retention Analytics</h3>
       <p>Predicting which customers are likely to churn so retention effort lands early, with a Random Forest classifier and feature-importance analysis.</p>
-      <p class="metric"><strong>ROC-AUC 0.7694</strong> · Accuracy 0.7440 · churn rate 29.77%</p>
+      <p class="metric">ROC-AUC 0.7694 · Accuracy 0.7440 · churn rate 29.77%</p>
       <p class="tech">Python · Random Forest · scikit-learn · pandas</p>
-      <a class="project-link" href="https://github.com/varshithakonakala0310/customer-churn-prediction-retention-analytics" target="_blank" rel="noopener">View on GitHub →</a>
-    </article>
+    </div>
+    <a class="project-link" href="https://github.com/varshithakonakala0310/customer-churn-prediction-retention-analytics" target="_blank" rel="noopener">View on GitHub</a>
+  </article>
 
-    <article class="project-card">
-      <div class="project-top"><span class="project-num">05</span><span class="tag">Finance · KPI Reporting</span></div>
+  <article class="project">
+    <span class="project-no">05</span>
+    <div class="project-body">
+      <p class="project-tag">Finance · KPI Reporting</p>
       <h3>Financial KPI &amp; Budget Variance Analytics</h3>
       <p>A fast, repeatable budget-vs-actual view by department and month, with ±10% KPI flags showing exactly where variance needs attention.</p>
-      <p class="metric"><strong>−1.36%</strong> overall variance · 10 over · 18 under · 44 on track <span>(of 72 department-months)</span></p>
+      <p class="metric">−1.36% overall variance · 10 over · 18 under · 44 on track <span>(of 72 department-months)</span></p>
       <p class="tech">Python · pandas · SQL · KPI monitoring</p>
-      <a class="project-link" href="https://github.com/varshithakonakala0310/financial-kpi-budget-variance-analytics" target="_blank" rel="noopener">View on GitHub →</a>
-    </article>
+    </div>
+    <a class="project-link" href="https://github.com/varshithakonakala0310/financial-kpi-budget-variance-analytics" target="_blank" rel="noopener">View on GitHub</a>
+  </article>
 
-    <article class="project-card">
-      <div class="project-top"><span class="project-num">06</span><span class="tag">People Analytics · HR</span></div>
+  <article class="project">
+    <span class="project-no">06</span>
+    <div class="project-body">
+      <p class="project-tag">People Analytics · HR</p>
       <h3>HR Workforce Attrition Analytics</h3>
       <p>People analytics on where attrition concentrates, by department and tenure band, and whether it can be predicted with logistic regression.</p>
-      <p class="metric"><strong>24.45%</strong> attrition · Sales highest at 27.22% · model accuracy 0.7620</p>
+      <p class="metric">24.45% attrition · Sales highest at 27.22% · model accuracy 0.7620</p>
       <p class="tech">Python · Logistic Regression · scikit-learn · pandas</p>
-      <a class="project-link" href="https://github.com/varshithakonakala0310/hr-workforce-attrition-analytics" target="_blank" rel="noopener">View on GitHub →</a>
-    </article>
-
-  </div>
+    </div>
+    <a class="project-link" href="https://github.com/varshithakonakala0310/hr-workforce-attrition-analytics" target="_blank" rel="noopener">View on GitHub</a>
+  </article>
 </section>
 
-<!-- ===================== SKILLS ===================== -->
+<!-- SKILLS -->
 <section class="section reveal" id="skills">
-  <p class="section-tag sticker sticker-tilt-left">05 · Skill &amp; Expertise</p>
-  <h2 class="section-title">What&rsquo;s in my <span class="text-red">toolbox</span></h2>
+  <header class="section-head"><span class="section-no">V.</span><h2>Skills &amp; Expertise</h2></header>
   <div class="skills-grid">
-    <div class="skill-group">
-      <h3>Programming &amp; Data</h3>
-      <ul class="pill-list">
-        <li>Python (Pandas, NumPy)</li><li>SQL</li><li>Microsoft Excel — Pivot Tables &amp; Dashboards</li><li>Google Sheets</li><li>Data Cleaning &amp; Preparation</li>
-      </ul>
-    </div>
-    <div class="skill-group">
-      <h3>Business Intelligence</h3>
-      <ul class="pill-list">
-        <li>Power BI</li><li>Tableau</li><li>Data Visualisation</li><li>KPI Monitoring</li><li>Business Intelligence Reporting</li>
-      </ul>
-    </div>
-    <div class="skill-group">
-      <h3>Analytics</h3>
-      <ul class="pill-list">
-        <li>Statistical Interpretation</li><li>Market Research</li><li>Competitive Analysis</li><li>Business Analysis</li><li>Requirements Gathering</li>
-      </ul>
-    </div>
-    <div class="skill-group">
-      <h3>Ways of Working</h3>
-      <ul class="pill-list">
-        <li>Agile</li><li>Scrum</li><li>Stakeholder Communication</li><li>Strategic Decision Making</li><li>KPI &amp; Performance Analysis</li>
-      </ul>
-    </div>
+    <div class="skill-group"><h3>Programming &amp; Data</h3><ul><li>Python (Pandas, NumPy)</li><li>SQL</li><li>Microsoft Excel — Pivot Tables &amp; Dashboards</li><li>Google Sheets</li><li>Data Cleaning &amp; Preparation</li></ul></div>
+    <div class="skill-group"><h3>Business Intelligence</h3><ul><li>Power BI</li><li>Tableau</li><li>Data Visualisation</li><li>KPI Monitoring</li><li>Business Intelligence Reporting</li></ul></div>
+    <div class="skill-group"><h3>Analytics</h3><ul><li>Statistical Interpretation</li><li>Market Research</li><li>Competitive Analysis</li><li>Business Analysis</li><li>Requirements Gathering</li></ul></div>
+    <div class="skill-group"><h3>Ways of Working</h3><ul><li>Agile</li><li>Scrum</li><li>Stakeholder Communication</li><li>Strategic Decision Making</li><li>KPI &amp; Performance Analysis</li></ul></div>
   </div>
 </section>
 
-<!-- ===================== CONTACT ===================== -->
+<!-- CONTACT -->
 <section class="contact reveal" id="contact">
-  <p class="section-tag sticker sticker-tilt-right">06 · Get in Touch</p>
-  <h2 class="contact-title">Let&rsquo;s work<br><span class="text-outline">together</span></h2>
-  <p class="contact-text">I am a Business Analyst with an MSc in Business Analytics from Aston University, focused on data-driven strategy, KPI reporting and predictive modelling. The fastest way to reach me is by email, and all of my project code is open on GitHub.</p>
-  <div class="hero-actions contact-actions">
-    <a class="btn btn-red" href="mailto:varshithakonakala@gmail.com">
-      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M4 6h16v12H4z"/><path fill="none" stroke="currentColor" stroke-width="2" d="m4 7 8 6 8-6"/></svg>
-      varshithakonakala@gmail.com
-    </a>
-    <a class="btn btn-ghost" href="https://github.com/varshithakonakala0310" target="_blank" rel="noopener">
-      <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-      github.com/varshithakonakala0310
-    </a>
+  <p class="eyebrow">Get in touch</p>
+  <h2>Let&rsquo;s work <em>together</em></h2>
+  <p>I am a Business Analyst with an MSc in Business Analytics from Aston University, focused on data-driven strategy, KPI reporting and predictive modelling. The fastest way to reach me is by email, and all of my project code is open on GitHub.</p>
+  <div class="hero-actions">
+    <a class="btn btn-solid" href="mailto:varshithakonakala@gmail.com">varshithakonakala@gmail.com</a>
+    <a class="btn btn-line" href="https://github.com/varshithakonakala0310" target="_blank" rel="noopener">github.com/varshithakonakala0310</a>
   </div>
 </section>
 
-<!-- ===================== FOOTER ===================== -->
+</main>
+
 <footer class="site-footer">
   <p class="footer-name">Varshitha Konakala</p>
   <p>Business Analyst · MSc Business Analytics, Aston University</p>
   <p class="footer-small">© 2026 Varshitha Konakala. All rights reserved.</p>
-  <a class="to-top" href="#top">Back to top ↑</a>
+  <a href="#top">Back to top</a>
 </footer>
 
 <script src="script.js"></script>
